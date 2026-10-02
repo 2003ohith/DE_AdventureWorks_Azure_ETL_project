@@ -690,3 +690,4 @@ Gold datasets are designed for SQL analytics and BI consumption.
 
 # **Medallion Architecture Diagram:**
 
+  <img src="AdventureWorks_architecture%20diagram.png" alt="AdventureWorks Architecture" width="900">
