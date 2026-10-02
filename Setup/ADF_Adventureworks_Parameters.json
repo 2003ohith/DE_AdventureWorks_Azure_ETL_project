@@ -1,0 +1,52 @@
+[
+    {
+        "param_rel_url" : "2003ohith/DE_AdventureWorks_Azure_ETL_project/blob/main/Data/AdventureWorks_Product_Categories.csv",
+        "param_sink_folder" : "AdventureWorks_Product_Categories",
+        "param_sink_file" : "AdventureWorks_Product_Categories.csv"
+    },
+    {
+        "param_rel_url" : "2003ohith/DE_AdventureWorks_Azure_ETL_project/blob/main/Data/AdventureWorks_Calendar.csv",
+        "param_sink_folder" : "AdventureWorks_Calendar",
+        "param_sink_file" : "AdventureWorks_Calendar.csv"
+    },
+    {
+        "param_rel_url" : "2003ohith/DE_AdventureWorks_Azure_ETL_project/blob/main/Data/AdventureWorks_Customers.csv",
+        "param_sink_folder" : "AdventureWorks_Customers",
+        "param_sink_file" : "AdventureWorks_Customers.csv"
+    },
+    {
+        "param_rel_url" : "2003ohith/DE_AdventureWorks_Azure_ETL_project/blob/main/Data/AdventureWorks_Product_Subcategories.csv",
+        "param_sink_folder" : "AdventureWorks_Product_Subcategories",
+        "param_sink_file" : "AdventureWorks_Product_Subcategories.csv"
+    },
+    {
+        "param_rel_url" : "2003ohith/DE_AdventureWorks_Azure_ETL_project/blob/main/Data/AdventureWorks_Products.csv",
+        "param_sink_folder" : "AdventureWorks_Products",
+        "param_sink_file" : "AdventureWorks_Products.csv"
+    },
+    {
+        "param_rel_url" : "2003ohith/DE_AdventureWorks_Azure_ETL_project/blob/main/Data/AdventureWorks_Returns.csv",
+        "param_sink_folder" : "AdventureWorks_Returns",
+        "param_sink_file":"AdventureWorks_Returns.csv"
+    },
+    {
+        "param_rel_url" : "2003ohith/DE_AdventureWorks_Azure_ETL_project/blob/main/Data/AdventureWorks_Sales_2015.csv",
+        "param_sink_folder" : "AdventureWorks_Sales_2015",
+        "param_sink_file" : "AdventureWorks_Sales_2015.csv"
+    },
+    {
+        "param_rel_url" : "2003ohith/DE_AdventureWorks_Azure_ETL_project/blob/main/Data/AdventureWorks_Sales_2016.csv",
+        "param_sink_folder" : "AdventureWorks_Sales_2016",
+        "param_sink_file" : "AdventureWorks_Sales_2016.cvsv"
+    },
+    {
+        "param_rel_url" : "2003ohith/DE_AdventureWorks_Azure_ETL_project/blob/main/Data/AdventureWorks_Sales_2017.csv",
+        "param_sink_folder" : "AdventureWorks_Sales_2017",
+        "param_sink_file" : "AdventureWorks_Sales_2017.csv"
+    },
+    {
+        "param_rel_url" : "2003ohith/DE_AdventureWorks_Azure_ETL_project/blob/main/Data/AdventureWorks_Territories.csv",
+        "param_sink_folder" : "AdventureWorks_Territories",
+        "param_sink_file" : "AdventureWorks_Territories.csv"
+    }
+]
