@@ -73,7 +73,7 @@ AdventureWorks CSV Files
        Power BI
  Reports / Dashboards
  ```
-#1. Source System
+# 1. Source Systems
 
 The project uses the AdventureWorks dataset stored in a GitHub repository.
 
@@ -98,7 +98,7 @@ GitHub Repository
 
 The source data is ingested into ADLS Gen2 using Azure Data Factory.
 
-#2. Azure Data Factory
+# 2. Azure Data Factory
 
 Azure Data Factory (ADF) is used for data ingestion and pipeline orchestration.
 
@@ -122,7 +122,7 @@ Azure Data Factory
     ADLS Gen2
 ```
 
-#3. Azure Data Lake Storage Gen2
+# 3. Azure Data Lake Storage Gen2
 
 The project uses the following ADLS Gen2 storage account:
 ```
@@ -176,7 +176,7 @@ UC_data
 └── Unity Catalog managed tables
 ```
 
-#4. Azure Databricks
+# 4. Azure Databricks
 
 Azure Databricks is used as the main data processing and transformation platform.
 
@@ -213,7 +213,7 @@ Gold
 - Schema validation
 - Delta table creation
 
-#5. Bronze Layer
+# 5. Bronze Layer
 
 The Bronze layer contains the raw AdventureWorks data.
 
@@ -248,7 +248,7 @@ Bronze Delta
 ```
 The Bronze layer provides the foundation for downstream transformations.
 
-#6. Silver Layer
+# 6. Silver Layer
 
 The Silver layer contains cleaned, standardized, and trusted AdventureWorks data.
 
@@ -295,7 +295,7 @@ slv_calendar
 ...
 ```
 
-#7. Gold Layer
+# 7. Gold Layer
 
 The Gold layer contains business-ready and analytics-ready AdventureWorks datasets.
 
@@ -334,7 +334,7 @@ Dim Product ---- Fact Sales / Orders ---- Dim Category
 ```
 The Gold layer is designed for downstream analytical and reporting workloads.
 
-#8. Unity Catalog
+# 8. Unity Catalog
 
 Unity Catalog is used for data governance, organization, access control, and metadata management.
 
@@ -384,7 +384,7 @@ ADLS
 ```
 Unity Catalog manages the logical Silver and Gold tables.
 
-#9. Unity Catalog Managed Tables
+# 9. Unity Catalog Managed Tables
 
 The Silver and Gold analytical tables are managed using Unity Catalog.
 
@@ -407,7 +407,7 @@ ADLS Gen2
 ```
 This separates the logical table organization from the physical storage location.
 
-#10. Unity Catalog Access Architecture
+# 10. Unity Catalog Access Architecture
 
 The project uses Azure-based access configuration to allow Databricks and Unity Catalog to access ADLS Gen2.
 
@@ -435,7 +435,7 @@ ADLS Gen2
 - Access Control
 - Managed Tables
 
-#11. Delta Lake
+# 11. Delta Lake
 
 Delta Lake is used as the primary table format for processed data.
 
@@ -463,7 +463,7 @@ Silver Delta
 Gold Delta
 ```
 
-#12. Azure Synapse Analytics
+# 12. Azure Synapse Analytics
 
 Azure Synapse Analytics is used as the serving and SQL analytics layer.
 
@@ -481,7 +481,7 @@ SQL Analytics
 ```
 Synapse provides a SQL-oriented serving layer between the processed data and reporting consumers.
 
-#13. Power BI
+# 13. Power BI
 
 Power BI is used as the reporting and visualization layer.
 
@@ -509,7 +509,7 @@ Power BI
 Reports / Dashboards
 ```
 
-#14. End-to-End Data Flow
+# 14. End-to-End Data Flow
 
 **The complete data flow is:**
 ```
@@ -559,7 +559,7 @@ Adventureworks
                Power BI
 ```
 
-#15. Data Layer Responsibilities
+# 15. Data Layer Responsibilities
 
 | Layer     | Technology / Location              | Purpose             | Main Operations                           |
 | --------- | ---------------------------------- | ------------------- | ----------------------------------------- |
@@ -571,7 +571,7 @@ Adventureworks
 | Serving   | Azure Synapse Analytics            | SQL analytics       | Query and serving                         |
 | BI        | Power BI                           | Reporting           | Dashboards and visualization              |
 
-#16. Technology Stack
+# 16. Technology Stack
 
 | Technology              | Role                             |
 | ----------------------- | -------------------------------- |
@@ -587,7 +587,7 @@ Adventureworks
 | Azure Synapse Analytics | SQL Analytics / Serving          |
 | Power BI                | Reporting and Visualization      |
 
-#17. Key Design Principles
+# 17. Key Design Principles
 Separation of Data Layers
 
 Raw, cleansed, and analytical data are separated into different layers.
@@ -616,7 +616,7 @@ Delta Lake provides reliable storage and transactional capabilities for processe
 
 Gold datasets are designed for SQL analytics and BI consumption.
 
-#18. Getting Started
+# 18. Getting Started
 **Prerequisites**
 - Azure subscription
 - Azure Data Factory
@@ -628,7 +628,7 @@ Gold datasets are designed for SQL analytics and BI consumption.
 - Azure Synapse Analytics
 - Power BI
 
-#19. Final Architecture
+# 19. Final Architecture
 ```
                     GitHub Repository
                   AdventureWorks CSV
