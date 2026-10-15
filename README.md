@@ -1,4 +1,4 @@
-# AdventureWorks Data Engineering Project
+# 🚴 AdventureWorks Data Engineering ETL Project | 🐙 GitHub | ☁️ Azure Data Factory | 🗄️ ADLS Gen2 | ⚡ Azure Databricks & PySpark | 🧱 Delta Lake | Unity Catalog | 🔷 Azure Synapse Analytics | 📊 Power BI
 
 ## Overview
 
